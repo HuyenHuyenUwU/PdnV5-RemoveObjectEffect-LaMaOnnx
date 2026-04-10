@@ -2,7 +2,8 @@
   <PropertyGroup>
     <!-- Set this to the location where you have Paint.NET installed. If you have the Microsoft
          Store version, you should download the portable version and point this at that. -->
-    <PdnRoot>D:\DevTools\PaintDotNet</PdnRoot>
+    <PdnRoot>C:\Program Files\paint.net</PdnRoot>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
   <PropertyGroup>
     <TargetFramework>net9.0-windows</TargetFramework>
