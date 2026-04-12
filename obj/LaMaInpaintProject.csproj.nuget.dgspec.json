@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LaMaInpaintProject\\LaMaInpaintProject.csproj": {}
+    "D:\\PROJECTS\\PaintDotNetRemoveObject\\PdnV5EffectSamples\\LaMaInpaintProject.csproj": {}
   },
   "projects": {
-    "D:\\LaMaInpaintProject\\LaMaInpaintProject.csproj": {
+    "D:\\PROJECTS\\PaintDotNetRemoveObject\\PdnV5EffectSamples\\LaMaInpaintProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LaMaInpaintProject\\LaMaInpaintProject.csproj",
+        "projectUniqueName": "D:\\PROJECTS\\PaintDotNetRemoveObject\\PdnV5EffectSamples\\LaMaInpaintProject.csproj",
         "projectName": "LaMaInpaintProject",
-        "projectPath": "D:\\LaMaInpaintProject\\LaMaInpaintProject.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\LaMaInpaintProject\\obj\\",
+        "projectPath": "D:\\PROJECTS\\PaintDotNetRemoveObject\\PdnV5EffectSamples\\LaMaInpaintProject.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\PaintDotNetRemoveObject\\PdnV5EffectSamples\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,6 +62,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.14, 9.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.14, 9.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.14, 9.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
