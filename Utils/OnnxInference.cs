@@ -68,5 +68,10 @@ namespace LaMaInpaintProject.Utils
                 return results.First().AsEnumerable<float>().ToArray();
             }
         }
+
+        public void Dispose()
+        {
+            _session.Dispose();
+        }
     }
 }
