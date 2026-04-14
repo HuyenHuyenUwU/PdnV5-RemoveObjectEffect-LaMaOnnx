@@ -46,7 +46,7 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "dependencies": {
-            "Microsoft.ML.OnnxRuntime.DirectML": {
+            "Microsoft.ML.OnnxRuntime": {
               "target": "Package",
               "version": "[1.20.1, )"
             }

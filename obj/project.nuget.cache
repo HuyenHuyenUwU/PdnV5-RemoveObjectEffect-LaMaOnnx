@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xaGXX/Td9Rc=",
+  "dgSpecHash": "VxYKT/1nlzA=",
   "success": true,
   "projectFilePath": "D:\\PROJECTS\\PaintDotNetRemoveObject\\PdnV5EffectSamples\\LaMaInpaintProject.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.ai.directml\\1.15.2\\microsoft.ai.directml.1.15.2.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.ml.onnxruntime.directml\\1.20.1\\microsoft.ml.onnxruntime.directml.1.20.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.ml.onnxruntime\\1.20.1\\microsoft.ml.onnxruntime.1.20.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.ml.onnxruntime.managed\\1.20.1\\microsoft.ml.onnxruntime.managed.1.20.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.14\\microsoft.windowsdesktop.app.ref.9.0.14.nupkg.sha512",

@@ -59,7 +59,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.ML.OnnxRuntime.DirectML" Version="1.20.1" />
+		<PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.20.1" />
 	</ItemGroup>
 
     <ItemGroup>
@@ -67,7 +67,7 @@
 			 root as model.onnx so the runtime loader can find it next to the plugin DLL. -->
 		<None Update="Models\model.onnx">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<TargetPath>model.onnx</TargetPath>
+			<TargetPath>model.onnx</TargetPath>git stat
 		</None>
 	</ItemGroup>
 
