@@ -1,9 +1,11 @@
-using System;
-using System.Drawing;
 using PaintDotNet;
 using PaintDotNet.Effects;
-using PaintDotNet.PropertySystem;
 using PaintDotNet.Imaging;
+using PaintDotNet.PropertySystem;
+using System;
+using System.Drawing;
+using System.IO;
+using System.Reflection;
 
 
 namespace LaMaInpaintProject
@@ -64,6 +66,21 @@ namespace LaMaInpaintProject
 
             using var lama = new LaMaEffect();
             _outputTensor = lama.Run(srcArgs.Surface, selection);
+
+            // đoạn ni là để debig thuii --------------------
+            string debugPath = @"D:\PROJECTS\PaintDotNetRemoveObject\PdnV5EffectSamples\lama_debug.txt";
+            // thay bằng đúng path project của bạn
+
+            File.WriteAllText(debugPath,
+                $"tensor length: {_outputTensor.Length}\n" +
+                $"min: {_outputTensor.Min()}\n" +
+                $"max: {_outputTensor.Max()}\n" +
+                $"mean: {_outputTensor.Average()}\n" +
+                $"canvas w={_width} h={_height}\n" +
+                $"expected length={_width * _height * 3}\n" +
+                $"actual pixels in tensor={_outputTensor.Length / 3}\n"
+            );
+            // ----------------------------------------------
         }
 
         /// <summary>
@@ -132,6 +149,7 @@ namespace LaMaInpaintProject
             return mask;
         }
 
+        // Clamp float [0,1] to byte [0,255] safely
         private static byte ClampToByte(float v)
             => (byte)Math.Clamp((int)(v * 255f), 0, 255);
     }

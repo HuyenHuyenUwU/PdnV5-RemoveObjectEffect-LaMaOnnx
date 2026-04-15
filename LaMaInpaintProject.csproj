@@ -63,16 +63,22 @@
 	</ItemGroup>
 
     <ItemGroup>
-		<!-- Ensure the model stored in Models\model.onnx is copied to the build output
+		<!-- Ensure the model stored in Models\lama_fp32.onnx is copied to the build output
 			 root as model.onnx so the runtime loader can find it next to the plugin DLL. -->
-		<None Update="Models\model.onnx">
+		<None Update="Models\lama_fp32.onnx">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<TargetPath>model.onnx</TargetPath>git stat
+			<TargetPath>model.onnx</TargetPath>
 		</None>
 	</ItemGroup>
 
  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
 		<!-- Do not fail the build if copying to Paint.NET folder fails on developer machines -->
-		<Exec Command="xcopy /y &quot;$(TargetPath)&quot; &quot;C:\Program Files\paint.net\Effects\&quot;&#xD;&#xA;xcopy /y &quot;$(TargetDir)model.onnx&quot; &quot;C:\Program Files\paint.net\Effects\&quot;&#xD;&#xA;xcopy /y &quot;$(TargetDir)Microsoft.ML.OnnxRuntime*&quot; &quot;C:\Program Files\paint.net\Effects\&quot;&#xD;&#xA;xcopy /y &quot;$(TargetDir)DirectML.dll&quot; &quot;C:\Program Files\paint.net\Effects\&quot;" ContinueOnError="true" />
+		<Exec Command="xcopy /y &quot;$(TargetPath)&quot; 
+						&quot;C:\Program Files\paint.net\Effects\&quot;&#xD;&#xA;xcopy /y 
+						&quot;$(TargetDir)lama_fp32.onnx&quot;
+						&quot;C:\Program Files\paint.net\Effects\&quot;&#xD;&#xA;xcopy /y 
+						&quot;$(TargetDir)Microsoft.ML.OnnxRuntime*&quot; 
+						&quot;C:\Program Files\paint.net\Effects\&quot;&#xD;&#xA;xcopy /y" 
+						ContinueOnError="true" />
 	</Target>
 </Project>
