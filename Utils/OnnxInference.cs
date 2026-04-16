@@ -17,7 +17,7 @@ namespace LaMaInpaintProject.Utils
         {
             string assemblyDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)
                                  ?? AppContext.BaseDirectory;
-            string modelPath = Path.Combine(assemblyDir, "lama_fp32.onnx");
+            string modelPath = Path.Combine(assemblyDir, "model.onnx");
      
             _session = new InferenceSession(modelPath, new SessionOptions());
 

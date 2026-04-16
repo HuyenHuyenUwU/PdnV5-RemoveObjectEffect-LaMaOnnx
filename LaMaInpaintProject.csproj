@@ -75,7 +75,7 @@
 		<!-- Do not fail the build if copying to Paint.NET folder fails on developer machines -->
 		<Exec Command="xcopy /y &quot;$(TargetPath)&quot; 
 						&quot;C:\Program Files\paint.net\Effects\&quot;&#xD;&#xA;xcopy /y 
-						&quot;$(TargetDir)lama_fp32.onnx&quot;
+						&quot;$(TargetDir)model.onnx&quot;
 						&quot;C:\Program Files\paint.net\Effects\&quot;&#xD;&#xA;xcopy /y 
 						&quot;$(TargetDir)Microsoft.ML.OnnxRuntime*&quot; 
 						&quot;C:\Program Files\paint.net\Effects\&quot;&#xD;&#xA;xcopy /y" 

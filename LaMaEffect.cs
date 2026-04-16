@@ -59,8 +59,8 @@ namespace LaMaInpaintProject
             float[] modelOutput = _onnx.Run(imgResized, maskResized, MODEL_SIZE, MODEL_SIZE);
             
             // Debug: kiểm tra kích thước output từ model
-            for (int i = 0; i < modelOutput.Length; i++) // normalize back to [0,1] range if model output is [0,255]
-                modelOutput[i] /= 255f;
+            // for (int i = 0; i < modelOutput.Length; i++) // normalize back to [0,1] range if model output is [0,255]
+            //     modelOutput[i] /= 255f;
             // Model trả về kích thước gốc (w×h), không phải 512×512
             // Kiểm tra để quyết định có cần resize không
             if (modelOutput.Length == 3 * w * h)

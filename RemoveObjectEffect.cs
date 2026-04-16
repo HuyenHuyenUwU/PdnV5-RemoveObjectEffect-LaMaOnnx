@@ -151,6 +151,6 @@ namespace LaMaInpaintProject
 
         // Clamp float [0,1] to byte [0,255] safely
         private static byte ClampToByte(float v)
-            => (byte)Math.Clamp((int)(v * 255f), 0, 255);
+            => (byte)Math.Clamp((int)(v), 0, 255);
     }
 }
