@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LaMaInpaintProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4432297071b097fdb7909e80f65f132c55c3f12")]
 [assembly: System.Reflection.AssemblyProductAttribute("LaMaInpaintProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LaMaInpaintProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

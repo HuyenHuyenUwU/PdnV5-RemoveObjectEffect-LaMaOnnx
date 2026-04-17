@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguye\\Downloads\\clone\\PdnV5EffectSamples-LaMaInpaint-OnnxModel\\LaMaInpaintProject.csproj": {}
+    "D:\\PdnV5EffectSamples\\LaMaInpaintProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nguye\\Downloads\\clone\\PdnV5EffectSamples-LaMaInpaint-OnnxModel\\LaMaInpaintProject.csproj": {
+    "D:\\PdnV5EffectSamples\\LaMaInpaintProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguye\\Downloads\\clone\\PdnV5EffectSamples-LaMaInpaint-OnnxModel\\LaMaInpaintProject.csproj",
+        "projectUniqueName": "D:\\PdnV5EffectSamples\\LaMaInpaintProject.csproj",
         "projectName": "LaMaInpaintProject",
-        "projectPath": "C:\\Users\\nguye\\Downloads\\clone\\PdnV5EffectSamples-LaMaInpaint-OnnxModel\\LaMaInpaintProject.csproj",
+        "projectPath": "D:\\PdnV5EffectSamples\\LaMaInpaintProject.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguye\\Downloads\\clone\\PdnV5EffectSamples-LaMaInpaint-OnnxModel\\obj\\",
+        "outputPath": "D:\\PdnV5EffectSamples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,7 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0-windows7.0": {
+          "net9.0-windows": {
+            "framework": "net9.0-windows7.0",
             "targetAlias": "net9.0-windows",
             "projectReferences": {}
           }
@@ -48,7 +49,8 @@
         "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
-        "net9.0-windows7.0": {
+        "net9.0-windows": {
+          "framework": "net9.0-windows7.0",
           "targetAlias": "net9.0-windows",
           "dependencies": {
             "Microsoft.ML.OnnxRuntime": {
@@ -76,11 +78,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     }

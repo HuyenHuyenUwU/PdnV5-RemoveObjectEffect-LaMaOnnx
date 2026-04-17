@@ -122,52 +122,6 @@
           "lib/netcoreapp2.1/_._": {}
         }
       }
-    },
-    "net9.0-windows7.0/win-x64": {
-      "Microsoft.ML.OnnxRuntime/1.20.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.ML.OnnxRuntime.Managed": "1.20.1"
-        },
-        "native": {
-          "runtimes/win-x64/native/onnxruntime.dll": {},
-          "runtimes/win-x64/native/onnxruntime.lib": {},
-          "runtimes/win-x64/native/onnxruntime_providers_shared.dll": {},
-          "runtimes/win-x64/native/onnxruntime_providers_shared.lib": {}
-        },
-        "build": {
-          "build/netstandard2.1/Microsoft.ML.OnnxRuntime.props": {},
-          "build/netstandard2.1/Microsoft.ML.OnnxRuntime.targets": {}
-        }
-      },
-      "Microsoft.ML.OnnxRuntime.Managed/1.20.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.5"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.ML.OnnxRuntime.dll": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.ML.OnnxRuntime.dll": {
-            "related": ".pdb"
-          }
-        },
-        "build": {
-          "build/netstandard2.0/Microsoft.ML.OnnxRuntime.Managed.targets": {}
-        }
-      },
-      "System.Memory/4.5.5": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      }
     }
   },
   "libraries": {
@@ -292,11 +246,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nguye\\Downloads\\clone\\PdnV5EffectSamples-LaMaInpaint-OnnxModel\\LaMaInpaintProject.csproj",
+      "projectUniqueName": "D:\\PdnV5EffectSamples\\LaMaInpaintProject.csproj",
       "projectName": "LaMaInpaintProject",
-      "projectPath": "C:\\Users\\nguye\\Downloads\\clone\\PdnV5EffectSamples-LaMaInpaint-OnnxModel\\LaMaInpaintProject.csproj",
+      "projectPath": "D:\\PdnV5EffectSamples\\LaMaInpaintProject.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nguye\\Downloads\\clone\\PdnV5EffectSamples-LaMaInpaint-OnnxModel\\obj\\",
+      "outputPath": "D:\\PdnV5EffectSamples\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -316,6 +270,7 @@
       },
       "frameworks": {
         "net9.0-windows7.0": {
+          "framework": "net9.0-windows7.0",
           "targetAlias": "net9.0-windows",
           "projectReferences": {}
         }
@@ -334,6 +289,7 @@
     },
     "frameworks": {
       "net9.0-windows7.0": {
+        "framework": "net9.0-windows7.0",
         "targetAlias": "net9.0-windows",
         "dependencies": {
           "Microsoft.ML.OnnxRuntime": {
@@ -361,11 +317,6 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win-x64": {
-        "#import": []
       }
     }
   }
