@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Db07ak+vDnc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nguye\\Downloads\\clone\\PdnV5EffectSamples-LaMaInpaint-OnnxModel\\LaMaInpaintProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.ml.onnxruntime\\1.20.1\\microsoft.ml.onnxruntime.1.20.1.nupkg.sha512",
+    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.ml.onnxruntime.managed\\1.20.1\\microsoft.ml.onnxruntime.managed.1.20.1.nupkg.sha512",
+    "C:\\Users\\nguye\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}

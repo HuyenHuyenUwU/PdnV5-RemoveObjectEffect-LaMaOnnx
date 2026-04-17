@@ -1,0 +1,49 @@
+## [ Visual Studio / .NET ]
+# Các thư mục build (Quan trọng nhất)
+[Bb]in/
+[Ob]j/
+[Aa]rm/
+[Aa]rm64/
+[Xx]64/
+[Xx]86/
+
+# Các file rác của Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+## [ NuGet Packages ]
+# Không nên đưa thư viện vào git, để NuGet tự restore
+packages/
+!packages/repositories.config
+*.nuget.props
+*.nuget.targets
+
+## [ ONNX & AI Models ]
+# Nếu model của bạn nặng (>50MB), nên để ở ngoài hoặc dùng LFS
+# Chặn các file model phát sinh hoặc file tạm
+*.onnx
+*.pb
+*.weights
+*.h5
+
+## [ Paint.NET Specific ]
+# Nếu bạn copy file DLL sang thư mục Effects để test, 
+# đừng đưa file test đó vào git
+# Thư mục Output tùy chỉnh nếu bạn cấu hình build thẳng vào Paint.NET
+/TestOutput/
+
+## [ WebGPU / JavaScript ]
+# Nếu phần simulation WebGPU nằm chung thư mục
+node_modules/
+.DS_Store
+dist/
+build/
+.env
+
+## [ OS / Hệ thống ]
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/

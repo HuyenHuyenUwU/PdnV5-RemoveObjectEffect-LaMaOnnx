@@ -1,0 +1,7 @@
+tensor length: 583200
+min: 0
+max: 255.00002
+mean: 89.6485
+canvas w=360 h=540
+expected length=583200
+actual pixels in tensor=194400
